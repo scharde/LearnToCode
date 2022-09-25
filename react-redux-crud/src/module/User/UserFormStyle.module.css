@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.btn-wrapper {
+  float: right;
+  margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+}

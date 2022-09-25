@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+  color: darkviolet;
+}
