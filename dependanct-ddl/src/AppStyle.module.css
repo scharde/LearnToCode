@@ -1,0 +1,15 @@
+.container {
+  margin: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header {
+  margin-left: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

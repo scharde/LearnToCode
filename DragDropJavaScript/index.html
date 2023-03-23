@@ -1,0 +1,30 @@
+<html>
+    <header>
+        <title>Drag and Drop example</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </header>
+
+    <body class="bg-indigo-100">
+        <div class="grid grid-cols-2 gap-1">
+                <div class="ml-8 mr-8 mt-5">
+                    <!-- Left Container -->
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+
+                        <ul id="list" class="list-none p-0 m-0 bg-indigo-200 border border-indigo-300 min-h-40">
+                            <li id="item1" draggable="true"  class="bg-white border border-indigo-300 p-4 mb-2 cursor-move">Item 1</li>
+                            <li id="item2" draggable="true" class="bg-white border border-indigo-300 p-4 mb-2 cursor-move">Item 2</li>
+                            <li id="item3" draggable="true" class="bg-white border border-indigo-300 p-4 mb-2 cursor-move">Item 3</li>
+                            <li id="item4" draggable="true" class="bg-white border border-indigo-300 p-4 mb-2 cursor-move">Item 4</li>
+                            <li id="item5" draggable="true" class="bg-white border border-indigo-300 p-4 mb-2 cursor-move">Item 5</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div id="target" class="mt-4 p-4 bg-white rounded-lg shadow-lg border-dashed border-2 border-indigo-300 min-h-60">
+                    <!-- Right Container -->
+                    <p class="text-center">Drop item here</p>
+                </div>
+        </div>
+        <script src="./index.js" ></script>
+    </body>
+</html>

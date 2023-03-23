@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+select {
+  margin-top: 3px;
+  padding: 3px;
+  width: 200px;
+  height: 30px;
+}
+
+select:focus-visible {
+  border: 2px solid blue;
+}

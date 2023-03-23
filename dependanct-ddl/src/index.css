@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* select {
+  margin-top: 3px;
+  padding: 3px;
+  width: 200px;
+  height: 30px;
+}
+
+select:focus-visible {
+  border: 2px solid blue;
+} */
